@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors Game</title>
+    <!-- SEO and AI Search Engine Friendly Meta Tags -->
+    <meta
+      name="description"
+      content="A fun rock, paper, scissors game against an AI opponent that learns from your choices!"
+    />
+    <meta
+      name="keywords"
+      content="Game, Rock Paper Scissors, AI, Learning AI, Interactive"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors Game</h1>
+    <h2 id="round">Round 1/21</h2>
+    <!-- Added this line -->
+    <div>
+      <h2>Your Choice</h2>
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
+    <div>
+      <h2>AI's Choice</h2>
+      <p id="aiChoice">...</p>
+    </div>
+    <div>
+      <h2>Outcome</h2>
+      <p id="outcome">...</p>
+      <button id="playAgain" style="display: none">Play Again</button>
+    </div>
+    <div>
+      <h2>Score</h2>
+      <p id="score">0 - 0</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
